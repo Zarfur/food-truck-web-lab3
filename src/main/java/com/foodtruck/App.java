@@ -26,6 +26,8 @@ public class App {
             html += "<option value='salad_greek'>Greek Salad ($7.50)</option>";
             html += "<option value='salad_caesar'>Caesar Salad ($7.25)</option>";
             html += "<option value='salad_garden'>Garden Salad ($6.75)</option>";
+            html += "<option value='salad_green'>Green Salad ($300.25)</option>";
+            html += "<option value='salad_meat'>Meat Salad ($15.50)</option>";
             html += "</select></p>";
 
             // Sandwich
@@ -35,6 +37,8 @@ public class App {
             html += "<option value='sandwich_turkey'>Turkey Sandwich ($9.50)</option>";
             html += "<option value='sandwich_veggie'>Veggie Sandwich ($8.75)</option>";
             html += "<option value='sandwich_tuna'>Tuna Sandwich ($9.25)</option>";
+            html += "<option value='sandwich_green'>Green Sandwich ($250.25)</option>";
+            html += "<option value='sandwich_beef'>Beef Sandwich ($20.35)</option>";
             html += "</select></p>";
 
             // Drink
@@ -44,6 +48,8 @@ public class App {
             html += "<option value='drink_water'>Water ($1.50)</option>";
             html += "<option value='drink_lemonade'>Lemonade ($2.75)</option>";
             html += "<option value='drink_icedtea'>Iced Tea ($2.50)</option>";
+            html += "<option value='drink_green'>Green Drink ($150.55)</option>";
+            html += "<option value='drink_meat'>Meat Drink ($5.50)</option>";
             html += "</select></p>";
 
             html += "<button type='submit'>Calculate Total</button>";
